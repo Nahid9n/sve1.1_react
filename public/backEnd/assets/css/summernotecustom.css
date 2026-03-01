@@ -1,0 +1,121 @@
+/* ===== Summernote Frontend Content Styling ===== */
+.summernote-content {
+    font-size: 19px !important;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Paragraph */
+.summernote-content p {
+    margin-bottom: 12px;
+}
+
+/* Headings */
+.summernote-content h1,
+.summernote-content h2,
+.summernote-content h3,
+.summernote-content h4,
+.summernote-content h5,
+.summernote-content h6 {
+    font-weight: 600;
+    margin: 20px 0 10px;
+    line-height: 1.4;
+}
+
+/* Lists */
+.summernote-content ul,
+.summernote-content ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.summernote-content li {
+    margin-bottom: 6px;
+}
+
+/* Images */
+.summernote-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+
+/* ===== Summernote Content Base ===== */
+.summernote-content {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* ===== TABLE WRAPPER FIX ===== */
+.summernote-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+/* Table cells */
+.summernote-content th,
+.summernote-content td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap; /* 🔥 prevent breaking */
+}
+
+/* Header */
+.summernote-content th {
+    background: #f5f5f5;
+    font-weight: 600;
+}
+
+/* ===== Responsive scroll wrapper ===== */
+.summernote-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+    .summernote-content {
+        font-size: 14px;
+    }
+}
+
+/* Blockquote */
+.summernote-content blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 15px;
+    margin: 15px 0;
+    color: #666;
+    font-style: italic;
+}
+
+/* Links */
+.summernote-content a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.summernote-content a:hover {
+    color: #0a58ca;
+}
+
+/* Code */
+.summernote-content pre,
+.summernote-content code {
+    background: #f8f9fa;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+/* Remove inline styles from editor */
+.summernote-content * {
+    max-width: 100%;
+}
